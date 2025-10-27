@@ -1,21 +1,57 @@
-# 🎨 RenderGit - Modern Repository Visualization Platform
+# 🎨 RenderGit / DirHub - Modern Repository Visualization Platform
 
 <div align="center">
-
 
 **Transform GitHub repositories into actionable knowledge**
 
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
 [![TypeScript](https://img.shields.io/badge/TypeScript-5.7-blue)](https://www.typescriptlang.org/)
 [![React](https://img.shields.io/badge/React-18.3-61dafb)](https://react.dev/)
-[![Vite](https://img.shields.io/badge/Vite-6.0-646cff)](https://vitejs.dev/)
+[![Next.js](https://img.shields.io/badge/Next.js-15.x-black)](https://nextjs.org/)
 
 [Demo](https://rendergit.dev) • [Documentation](./DOCUMENTATION.md) • [B2B Strategy](./B2B_SAAS_STRATEGY.md) • [Decisions](./EXECUTIVE_SUMMARY.md)
 
 </div>
 
-> Nota: Este repositorio está evolucionando hacia **DirHub**, una plataforma SaaS para generar documentación wiki automática para repositorios de GitHub mediante análisis con IA. Ver la especificación y plan de migración en `docs/DIRHUB_SPEC.md`.
+---
 
+## 🚀 **NEW: DirHub - Next.js SaaS Platform**
+
+> **DirHub** is the evolution of RenderGit into a full-featured SaaS platform for automatic GitHub wiki documentation generation using AI analysis. Built with Next.js 15, TypeScript, and modern web technologies.
+
+### 📂 Project Structure
+
+This repository now contains **two implementations**:
+
+1. **`/src`** - Original Vite + React implementation (RenderGit)
+2. **`/next-app`** - New Next.js 15 SaaS platform (DirHub) ⭐
+
+### ✨ DirHub Features
+
+- 🤖 **AI-Powered Documentation** - Automatic wiki generation from repository analysis
+- 📊 **Repository Management** - Add, queue, and monitor repository processing
+- 🎨 **Modern UI** - Built with Next.js 15, Radix UI, and Tailwind CSS
+- 🔍 **Smart Search** - Find and explore repositories easily
+- 📱 **Responsive Design** - Optimized for all devices
+- ♿ **Accessible** - Built with Radix UI primitives for full accessibility
+- 🌓 **Dark Mode** - Support for light and dark themes
+
+### 🏃 Quick Start - DirHub (Next.js)
+
+```bash
+# Navigate to Next.js app
+cd next-app
+
+# Install dependencies
+npm install
+
+# Run development server
+npm run dev
+
+# Open http://localhost:3000
+```
+
+See [next-app/README.md](./next-app/README.md) for complete documentation.
 
 ---
 
