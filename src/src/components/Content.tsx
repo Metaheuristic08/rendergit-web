@@ -2,7 +2,7 @@ import React from 'react';
 import { useApp } from '../services/appStateService';
 import { useIncrementalRendering } from '../services/incrementalRenderingService';
 import CodeViewer from './CodeViewer';
-import { motion, AnimatePresence } from 'framer-motion';
+import { motion } from 'framer-motion';
 import './Content.css';
 
 const Content: React.FC = () => {
